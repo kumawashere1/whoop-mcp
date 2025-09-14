@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/sse.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    { "source": "/sse", "destination": "/api/sse" }
+  ]
+}
